@@ -18,9 +18,9 @@ function translate(query, completion) {
     const api_keys = $option.api_keys.split(",").map((key) => key.trim());
     const api_key = api_keys[Math.floor(Math.random() * api_keys.length)];
     const header = {
-        "Content-Type": "application/json",
+        "Content-Type": "application/x-www-form-urlencoded",
         "X-RapidAPI-Key": api_key,
-        "X-RapidAPI-Host": "deepl-translator.p.rapidapi.com",
+        "X-RapidAPI-Host": "fast-deepl-translator.p.rapidapi.com",
     };
     const body = {
         text: query.text,
@@ -30,7 +30,7 @@ function translate(query, completion) {
     (async () => {
         const resp = await $http.request({
             method: "POST",
-            url: "https://deepl-translator.p.rapidapi.com/translate",
+            url: "https://fast-deepl-translator.p.rapidapi.com/api/translate",
             header,
             body,
         });
@@ -51,7 +51,7 @@ function translate(query, completion) {
                 },
             });
         } else {
-            const { text: targetText } = resp.data;
+            const targetText  = resp.data[0];
             if (!targetText) {
                 completion({
                     error: {
