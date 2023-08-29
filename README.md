@@ -2,7 +2,7 @@ RapidAPI DeepL Translator Bob Plugin
 ------------------------------------
 
 # 2023年08月29日 更新
-因原来作者的推荐的 [DeepL Translator](https://rapidapi.com/splintPRO/api/deepl-translator) 已经404，现在更新为  [Fast DeepL Translator](https://fast-deepl-translator.p.rapidapi.com/api/translate)
+因原来作者的推荐的 [DeepL Translator](https://rapidapi.com/splintPRO/api/deepl-translator) 已经404，现在更新为  [Fast DeepL Translator](https://rapidapi.com/bwtun-bwtun-default/api/fast-deepl-translator)
 
 
 # 相关推荐
