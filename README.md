@@ -1,6 +1,10 @@
 RapidAPI DeepL Translator Bob Plugin
 ------------------------------------
 
+# 2023年08月29日 更新
+因原来作者的推荐的 [DeepL Translator](https://rapidapi.com/splintPRO/api/deepl-translator) 已经404，现在更新为  [Fast DeepL Translator](https://fast-deepl-translator.p.rapidapi.com/api/translate)
+
+
 # 相关推荐
 
 我的另一个通过 OpenAI GPT-3 进行划词翻译的 Bob 插件：https://github.com/yetone/bob-plugin-openai-translator
